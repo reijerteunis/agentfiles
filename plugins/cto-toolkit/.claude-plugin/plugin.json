@@ -1,0 +1,21 @@
+{
+  "name": "cto-toolkit",
+  "description": "A CTO office agent and the engineering-leadership craft behind it: weekly reviews from real signals, ADRs and tech specs, architecture reviews, incident command and postmortems, build vs buy, cost and threat reviews, EU AI Act assessments, tech debt, delivery metrics, 1:1s, performance reviews, board updates and due diligence.",
+  "author": {
+    "name": "Ruud van Engelenhoven",
+    "url": "https://heyruud.com"
+  },
+  "homepage": "https://github.com/reijerteunis/agentfiles",
+  "repository": "https://github.com/reijerteunis/agentfiles",
+  "license": "MIT",
+  "keywords": [
+    "cto",
+    "engineering-leadership",
+    "adr",
+    "architecture",
+    "incidents",
+    "metrics",
+    "ai-act",
+    "product"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "career",
+  "description": "Both sides of hiring. For hiring managers: outcome-first job descriptions, structured interview loops and evidence-based evaluations with a bias check. For job seekers: a job-search agent that tailors every CV truthfully, tracks applications and drafts every follow-up, and never sends anything.",
+  "author": {
+    "name": "Ruud van Engelenhoven",
+    "url": "https://heyruud.com"
+  },
+  "homepage": "https://github.com/reijerteunis/agentfiles",
+  "repository": "https://github.com/reijerteunis/agentfiles",
+  "license": "MIT",
+  "keywords": [
+    "career",
+    "job-search",
+    "hiring",
+    "cv",
+    "interviews",
+    "recruiting"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "PLUGIN",
+  "description": "TODO: one sentence",
+  "author": {
+    "name": "Ruud van Engelenhoven",
+    "url": "https://heyruud.com"
+  },
+  "homepage": "https://github.com/reijerteunis/agentfiles",
+  "repository": "https://github.com/reijerteunis/agentfiles",
+  "license": "MIT"
+}

@@ -1,0 +1,237 @@
+{
+  "plugin": "career",
+  "ran": "2026-10-13",
+  "claude": "2.1.296",
+  "runs_per_case": 3,
+  "cost_usd": 9.05,
+  "cases": [
+    {
+      "name": "application-form-salary",
+      "kind": "trigger",
+      "with": [
+        1,
+        0,
+        1
+      ],
+      "without": [
+        0,
+        0,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "apply-to-posting",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "candidate-evaluation-near-miss-1",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "candidate-evaluation-trigger-1",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "company-research-near-miss-1",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "company-research-trigger-1",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "cv-scope-traps",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        0,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "design-interview-loop",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "find-jobs",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "no-trigger-cv-question",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "tailor-truthfully",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "write-job-description",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    }
+  ]
+}

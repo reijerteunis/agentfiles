@@ -1,0 +1,165 @@
+{
+  "plugin": "venture-lab",
+  "ran": "2026-10-13",
+  "claude": "2.1.296",
+  "runs_per_case": 3,
+  "cost_usd": 4.29,
+  "cases": [
+    {
+      "name": "hold-the-gate",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "interview-questions",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "interviews-not-from-employer",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0,
+        0,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "no-trigger-history",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "screen-an-idea",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "side-activity-clause-nl",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "side-project-employed",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "unit-economics",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    }
+  ]
+}

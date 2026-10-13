@@ -1,0 +1,145 @@
+{
+  "plugin": "agent-ops",
+  "ran": "2026-10-13",
+  "claude": "2.1.296",
+  "runs_per_case": 3,
+  "cost_usd": 5.36,
+  "cases": [
+    {
+      "name": "audit-instructions",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0,
+        0,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "author-a-skill",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "blueprint-with-gates",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "no-trigger-cs-question",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "parallel-with-dependency",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0,
+        0,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "retro-enforces",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "write-evals",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    }
+  ]
+}

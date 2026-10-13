@@ -1,0 +1,80 @@
+{
+  "name": "agentfiles",
+  "owner": {
+    "name": "Ruud van Engelenhoven",
+    "url": "https://heyruud.com"
+  },
+  "metadata": {
+    "description": "Ruud van Engelenhoven's AI agent setup: domain agents and skills for engineering leadership, careers and hiring, chief-of-staff work, would-be founders, go-to-market and agent operations."
+  },
+  "plugins": [
+    {
+      "name": "cto-toolkit",
+      "source": "./plugins/cto-toolkit",
+      "description": "A CTO office agent and the engineering-leadership craft behind it: weekly reviews, ADRs and specs, architecture reviews, incidents and postmortems, build vs buy, cost and threat reviews, EU AI Act assessments, tech debt, metrics, 1:1s, reviews, board updates and due diligence.",
+      "tags": [
+        "cto",
+        "engineering-leadership",
+        "architecture",
+        "incidents",
+        "ai-act"
+      ]
+    },
+    {
+      "name": "go-to-market",
+      "source": "./plugins/go-to-market",
+      "description": "A go-to-market agent: ideal customer profile, positioning, messaging with proof, pricing and packaging, channels and launches, landing pages, nurture and outbound drafts, sales calls, proposals, case studies and a weekly pipeline and metrics review.",
+      "tags": [
+        "go-to-market",
+        "sales",
+        "marketing",
+        "pricing",
+        "launch"
+      ]
+    },
+    {
+      "name": "agent-ops",
+      "source": "./plugins/agent-ops",
+      "description": "Operations for your AI agent setup: retros, skill and agent design, evals, library audits, instruction files, guardrails, parallel agents and repo onboarding.",
+      "tags": [
+        "agents",
+        "skills",
+        "evals",
+        "guardrails"
+      ]
+    },
+    {
+      "name": "career",
+      "source": "./plugins/career",
+      "description": "Both sides of hiring. For hiring managers: outcome-first job descriptions, structured interview loops and evidence-based evaluations with a bias check. For job seekers: a job-search agent that tailors every CV truthfully, tracks applications and drafts every follow-up, and never sends anything.",
+      "tags": [
+        "career",
+        "job-search",
+        "hiring",
+        "interviews"
+      ]
+    },
+    {
+      "name": "chief-of-staff",
+      "source": "./plugins/chief-of-staff",
+      "description": "A chief-of-staff agent: morning brief, inbox triage with drafted replies, meeting prep and notes, promise tracking, calendar defence, decisions, delegations and the weekly review. Never sends, accepts or deletes.",
+      "tags": [
+        "chief-of-staff",
+        "productivity",
+        "email",
+        "calendar"
+      ]
+    },
+    {
+      "name": "venture-lab",
+      "source": "./plugins/venture-lab",
+      "description": "An evidence-driven lab for would-be founders: screen ideas, interview customers, run cheap experiments with pre-set kill criteria, decide continue or kill, then model the business, check side-project safety, readiness, co-founder fit and funding.",
+      "tags": [
+        "founder",
+        "startup",
+        "validation",
+        "experiments"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "plugin": "go-to-market",
+  "ran": "2026-10-13",
+  "claude": "2.1.296",
+  "runs_per_case": 3,
+  "cost_usd": 18.57,
+  "cases": [
+    {
+      "name": "case-study-needs-approval",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "channels-for-low-price",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        0,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "debrief-business-facts-only",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "discount-needs-approval",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "gtm-set-up",
+      "kind": "trigger",
+      "with": [
+        1,
+        0,
+        0
+      ],
+      "without": [
+        0,
+        0,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "icp-from-best-customers",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0,
+        1,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "landing-page-for-ad",
+      "kind": "trigger",
+      "with": [
+        0,
+        0,
+        1
+      ],
+      "without": [
+        0.5,
+        0,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "launch-without-vote-asks",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        0,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "messaging-only-given-facts",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0.5,
+        0.5,
+        1
+      ],
+      "fired": [
+        true,
+        false,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "metrics-small-sample",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "no-trigger-delivery-metrics",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "no-trigger-idea-validation",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "no-trigger-job-outreach",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "no-trigger-launch-post",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "no-trigger-problem-interviews",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "no-trigger-salary-negotiation",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "no-trigger-tech-proposal",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "nurture-after-download",
+      "kind": "trigger",
+      "with": [
+        0,
+        1,
+        0
+      ],
+      "without": [
+        0,
+        0,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "outbound-dutch-consent",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0,
+        0,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "position-against-alternatives",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        0,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "price-from-value",
+      "kind": "trigger",
+      "with": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "without": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "sales-call-prep",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    }
+  ]
+}

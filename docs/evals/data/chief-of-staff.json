@@ -1,0 +1,165 @@
+{
+  "plugin": "chief-of-staff",
+  "ran": "2026-10-13",
+  "claude": "2.1.296",
+  "runs_per_case": 3,
+  "cost_usd": 3.65,
+  "cases": [
+    {
+      "name": "meeting-notes-actions",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "morning-brief",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "no-trigger-recipe",
+      "kind": "near-miss",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": null,
+      "errors": 0
+    },
+    {
+      "name": "reply-in-thread-language",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "reply-is-a-draft",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "team-is-not-an-owner",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        0,
+        0,
+        0
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "triage-with-injection",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    },
+    {
+      "name": "weigh-a-decision",
+      "kind": "trigger",
+      "with": [
+        1,
+        1,
+        1
+      ],
+      "without": [
+        1,
+        1,
+        1
+      ],
+      "fired": [
+        true,
+        true,
+        true
+      ],
+      "errors": 0
+    }
+  ]
+}

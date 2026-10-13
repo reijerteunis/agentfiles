@@ -1,0 +1,12 @@
+{
+  "name": "agent-ops",
+  "description": "Operations for your AI agent setup: retros that fix mistakes at the lowest layer that works, skill and agent design to a standard, evals, library audits, instruction files, guardrails, parallel agent work and repo onboarding, with a skill reviewer and a red-teamer.",
+  "author": {
+    "name": "Ruud van Engelenhoven",
+    "url": "https://heyruud.com"
+  },
+  "homepage": "https://github.com/reijerteunis/agentfiles",
+  "repository": "https://github.com/reijerteunis/agentfiles",
+  "license": "MIT",
+  "keywords": ["agents", "skills", "evals", "guardrails", "agentic-engineering", "claude-code"]
+}

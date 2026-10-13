@@ -1,0 +1,12 @@
+{
+  "name": "venture-lab",
+  "description": "An evidence-driven lab for would-be founders: screen ideas, interview customers, map markets, run cheap experiments with pre-set kill criteria, and decide continue, pivot or kill; then model the business, check the side project is safe next to a job, assess readiness and co-founder fit, and pick the funding path.",
+  "author": {
+    "name": "Ruud van Engelenhoven",
+    "url": "https://heyruud.com"
+  },
+  "homepage": "https://github.com/reijerteunis/agentfiles",
+  "repository": "https://github.com/reijerteunis/agentfiles",
+  "license": "MIT",
+  "keywords": ["founder", "startup", "validation", "customer-discovery", "experiments", "business-model"]
+}

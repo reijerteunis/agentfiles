@@ -1,0 +1,50 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "17 6 * * *" # daily secret scan of the full history
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+      - name: Skills, plugins, evals and catalog
+        run: uv run scripts/validate.py --check-catalog
+      - name: Validator self-test
+        run: bash scripts/test-validate.sh
+      - name: Settings merge test
+        run: bash scripts/test-merge.sh
+      - name: The README's guarantees fail closed, and the published eval results match their data
+        run: |
+          python3 scripts/eval_report.py --self-test
+          bash scripts/test-guarantees.sh
+      - name: Claude settings match the official schema
+        run: uvx check-jsonschema --schemafile https://json.schemastore.org/claude-code-settings.json global/claude/settings.json
+      - name: Shell scripts
+        run: shellcheck install.sh scripts/*.sh global/claude/statusline.sh
+      - name: Claude Code plugin validation
+        # Not --strict: plugins omit "version" on purpose, so installs track commits
+        run: |
+          curl -fsSL https://claude.ai/install.sh | bash
+          ~/.local/bin/claude plugin validate .
+
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: gitleaks/gitleaks-action@e0c47f4f8be36e29cdc102c57e68cb5cbf0e8d1e # v3.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,12 @@
+{
+  "name": "chief-of-staff",
+  "description": "A chief-of-staff agent for your day-to-day: morning brief, inbox triage with drafted replies, meeting prep and notes, a promise tracker, calendar defence, decisions, delegations and the weekly review. Drafts and proposes; never sends, accepts or deletes.",
+  "author": {
+    "name": "Ruud van Engelenhoven",
+    "url": "https://heyruud.com"
+  },
+  "homepage": "https://github.com/reijerteunis/agentfiles",
+  "repository": "https://github.com/reijerteunis/agentfiles",
+  "license": "MIT",
+  "keywords": ["chief-of-staff", "productivity", "email", "calendar", "meetings", "planning"]
+}

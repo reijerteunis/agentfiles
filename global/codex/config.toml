@@ -1,0 +1,16 @@
+# Codex CLI config — https://learn.chatgpt.com/docs/config-file/config-reference
+# Copied to ~/.codex/config.toml on first setup. It's a copy, not a symlink, because Codex edits this file
+# itself (trusted folders, /theme, /keymap, Herdr's hook flag). Port changes worth keeping back here by hand.
+
+approval_policy = "on-request"          # works on its own, asks before doing anything outside the sandbox
+sandbox_mode = "workspace-write"        # may edit the current repo; nothing outside it without asking
+file_opener = "cursor"                  # file links in Codex open in Cursor
+
+# Repos that only have a CLAUDE.md still give Codex their project instructions
+project_doc_fallback_filenames = ["CLAUDE.md"]
+
+[sandbox_workspace_write]
+network_access = true                   # package installs, docs, APIs (set false for repos you don't trust)
+
+[tui]
+notifications = true                    # notify when a turn finishes or needs approval (while unfocused)

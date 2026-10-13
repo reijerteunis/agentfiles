@@ -1,0 +1,12 @@
+{
+  "name": "go-to-market",
+  "description": "A go-to-market agent that takes a product to its first and next customers: ideal customer profile, positioning, messaging with a proof bank, pricing and packaging, channels and launches, landing pages, nurture and outbound sequences, sales calls, proposals, case studies, and a weekly pipeline and metrics review. Every claim needs proof; nothing is sent.",
+  "author": {
+    "name": "Ruud van Engelenhoven",
+    "url": "https://heyruud.com"
+  },
+  "homepage": "https://github.com/reijerteunis/agentfiles",
+  "repository": "https://github.com/reijerteunis/agentfiles",
+  "license": "MIT",
+  "keywords": ["go-to-market", "gtm", "positioning", "pricing", "sales", "marketing", "launch"]
+}
