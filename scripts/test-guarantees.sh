@@ -21,12 +21,12 @@ check() {  # check <what it proves> <expected exit code> <expected text> -- <com
   fi
 }
 
-# shellcheck disable=SC2329  # called through check's "$@"
+# shellcheck disable=SC2317,SC2329  # called through check's "$@" (older shellcheck reports SC2317)
 denied() {  # prints the deny rule if the shipped Claude Code settings contain it
   jq -er --arg rule "$1" '.permissions.deny[] | select(. == $rule)' global/claude/settings.json
 }
 
-# shellcheck disable=SC2329  # called through check's "$@"
+# shellcheck disable=SC2317,SC2329  # called through check's "$@" (older shellcheck reports SC2317)
 hook() {  # runs the guardrail hook on a Bash command, as Claude Code would
   printf '{"tool_input":{"command":"%s"}}' "$1" | sh plugins/agent-ops/skills/guardrail-design/assets/block-unsafe-git.sh
 }
